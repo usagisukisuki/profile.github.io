@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Sota Kato
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Sota 
+last_name: Kato
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🐇
 
 # Is this the primary user of the site?
 superuser: true
@@ -24,32 +24,31 @@ role: Chief Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: SenseTime Japan Ltd.
+    url: https://www.sensetime.jp/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'sota_kato@sensetime.jp'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/usagisukisuki_
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/usagisukisuki
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: www.linkedin.com/in/souchocosou
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.co.jp/citations?user=PTl21uUAAAAJ&hl=ja
   - icon: academicons/orcid
     url: https://orcid.org/
 
 interests:
+  - Computer Vision
+  - Deep Learning
+  - Pattern Recognition
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
 education:
   - area: PhD Artificial Intelligence
