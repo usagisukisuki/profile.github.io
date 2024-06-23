@@ -7,12 +7,12 @@ type: landing
 design:
   background:
     # Choose a color such as from https://html-color-codes.info
-    color: 'white'
+    color: 'navy'
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
-    text_color_light: false
+    text_color_light: true
   # Default section spacing
   # spacing: "6rem"
-  padding: ['20px', '0', '20px', '0']
+  padding: ['10px', '0', '10px', '0']
 
 sections:
   - block: resume-biography-3
@@ -28,6 +28,7 @@ sections:
       css_class: dark
       background:
         color: white
+        text_color_light: false
         image:
           # Add your image background to `assets/media/`.
           filename: '' #stacked-peaks.svg
