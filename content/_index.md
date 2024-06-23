@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: "Sota Kato/加藤聡太"
 date: 2022-10-24
 type: landing
 
@@ -57,6 +57,12 @@ sections:
     id: publications
     content:
       title: Journal
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    content:
+      title: International Conference(Full paper, Refereed)
       filters:
         folders:
           - publication

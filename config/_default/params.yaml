@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: cyan
+  color: blue
 
 # SEO
 marketing:
@@ -36,7 +36,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Sota Kato/加藤聡太"
+      text: "Sota Kato"
 
 # Site footer
 footer:
