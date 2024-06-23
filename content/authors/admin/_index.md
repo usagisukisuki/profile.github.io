@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -30,9 +30,6 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'sota_kato@sensetime.jp'
-    label: E-mail Me
   - icon: brands/x
     url: https://x.com/usagisukisuki_
   - icon: brands/github
@@ -51,19 +48,19 @@ interests:
   - Artificial Intelligence
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Ph.D. in Engineering
+    institution: Meijo University
+    date_start: 2021-04-01
+    date_end: 2024-03-31
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: M.Eng. in Engineering
+    institution: Meijo University
+    date_start: 2019-04-01
+    date_end: 2021-03-31
     summary: |
       GPA: 3.8/4.0
 
@@ -71,10 +68,10 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: B.Eng. in Engineering
+    institution: Meijo University
+    date_start: 2015-04-01
+    date_end: 2019-03-31
     summary: |
       GPA: 3.4/4.0
       
@@ -182,4 +179,6 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+A researcher at SenseTime Japan Corporation, based in Kyoto, Japan. I received a doctoral degree in Engineering at the Hotta Laboratory in Meijo University. From 2021 to 2023, I was a Special Assistant at Meijo University and a JSPS research fellow (DC2).
+
+My research interests in applying deep learning to real-world image, and include in class imbalanced learning, small object detection, and domain adaptation. Recently, I worked in anomaly detection for Advanced Driver-Assistance Systems (ADAS). Before joining SenseTime Japan Corporation, I mainly worked in medical and biological semantic segmentation, and long-tailed clasification. 

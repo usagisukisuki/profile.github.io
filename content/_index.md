@@ -21,7 +21,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
+        color: white
         image:
           # Add your image background to `assets/media/`.
           filename: '' #stacked-peaks.svg
@@ -30,31 +30,31 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+  #- block: markdown
+  #  content:
+  #    title: '📚 My Research'
+  #    subtitle: ''
+  #    text: |-
+  #      Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+  #      I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
+  #      Please reach out to collaborate 😃
+  #  design:
+  #    columns: '1'
   - block: collection
-    id: papers
+    id: myresearch
     content:
-      title: Myresearch
+      title: 📚 My Research
       filters:
         folders:
           - publication
         featured_only: true
     design:
-      view: card
+      view: article-grid
       columns: 4
   - block: collection
-    id: papers
+    id: publications
     content:
       title: Journal
       filters:
@@ -62,7 +62,7 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
+      view: citation
       columns: 1
   - block: collection
     id: papers
@@ -73,7 +73,7 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
+      view: citation
       columns: 1
   - block: collection
     id: papers
@@ -84,7 +84,7 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
+      view: citation
       columns: 1
   - block: collection
     id: papers
@@ -95,7 +95,7 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
+      view: citation
       columns: 1
   - block: collection
     id: papers
@@ -106,27 +106,17 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
+      view: citation
       columns: 1
   - block: collection
+    id: achievements
     content:
-      title: International Conference(Full paper, Refereed)
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
+      title: Achievements
       filters:
         folders:
           - event
     design:
-      view: article-grid
+      view: list
       columns: 1
   - block: collection
     id: news
