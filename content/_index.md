@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: '' #stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
@@ -45,17 +45,72 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Myresearch
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: card
+      columns: 4
+  - block: collection
+    id: papers
+    content:
+      title: Journal
       filters:
         folders:
           - publication
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 1
+  - block: collection
+    id: papers
+    content:
+      title: International Conference(Full paper, Refereed)
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 1
+  - block: collection
+    id: papers
+    content:
+      title: International Conference(Short paper)
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 1
+  - block: collection
+    id: papers
+    content:
+      title: Domestic Conference
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 1
+  - block: collection
+    id: papers
+    content:
+      title: Preprint
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 1
   - block: collection
     content:
-      title: Recent Publications
+      title: International Conference(Full paper, Refereed)
       text: ""
       filters:
         folders:
