@@ -5,8 +5,14 @@ date: 2022-10-24
 type: landing
 
 design:
+  background:
+    # Choose a color such as from https://html-color-codes.info
+    color: 'white'
+    # Text color (true=light, false=dark, or remove for the dynamic theme color).
+    text_color_light: false
   # Default section spacing
-  spacing: "6rem"
+  # spacing: "6rem"
+  padding: ['20px', '0', '20px', '0']
 
 sections:
   - block: resume-biography-3
@@ -57,12 +63,6 @@ sections:
     id: publications
     content:
       title: Journal
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    content:
-      title: International Conference(Full paper, Refereed)
       filters:
         folders:
           - publication
